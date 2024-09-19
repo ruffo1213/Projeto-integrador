@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #012615;
+    flex-direction: column;
+    margin-top: 150px;
+    font-family: "Potta One", system-ui;
+    font-style: normal;
+    
+}
+
+form{
+    width: 360px;
+    font-weight: bold;
+    font-size: small;
+}
+
+input{
+    margin-top: 10px;
+    width: 360px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #E9EBFF;
+    font-size: small;
+}
+h1{
+    text-align: center;
+    color: #BFBFBD;
+}
+.fruta{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+
+}
+.adicionar{
+    background-color: #00FF1A;
+    width: 360px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px ;
+    color: black;
+    text-decoration: none;
+   
+
+}
+.pequena{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.editar, .excluir{
+    width: 20px;
+    height: 20px;
+    
+}
+.item{
+    display: flex;
+    
+}
+ul, li{
+    width: 360px;
+    padding: 0;
+    color: #86FF73;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.botoes{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    
+}
+.cadastrar{
+    width: 180px;
+    height: 40px;
+    background-color: #BFBFBD;
+    border: none;
+    font-family: "Potta One", system-ui;
+    color: #0D0D0D;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+}
+
+.logar{
+    width: 180px;
+    height: 40px;
+    background-color: #BFBFBD;
+    border: none;
+    font-family: "Potta One", system-ui;
+    color: #0D0D0D;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 4px;
+}
+
+.voltar{
+    width: 180px;
+    height: 40px;
+    background-color: #00FF1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+label{
+    color: #00FF1A;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+input{
+    background-color: #c7c9c7;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+input::placeholder{
+    color: black;
+}
+
+button{
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Poetsen One", sans-serif;
+    margin-top: 20px;
+}
+
+button a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+form label{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.denunciaInput{
+    height: 60px;
+}
+
+textarea{
+    background-color: #c7c9c7;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+}
+
+textarea::placeholder{
+    color: black;
+}
